@@ -1,9 +1,9 @@
 // 2 number input elements
 let input1 = document.createElement("input")
-input1.type = "number"
+input1.type = "text"
 
 let input2 = document.createElement("input")
-input2.type = "number"
+input2.type = "text"
 
 let bodyElement = document.querySelector("body")
 bodyElement.append(input1, input2)
