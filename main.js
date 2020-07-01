@@ -30,8 +30,8 @@ function arrayCalculator(array1, array2, callback) {
 
 function handleClick(callback) {
     // get the inputs from the input elements
-    let inputArray1 = input1.value.split(",")
-    let inputArray2 = input2.value.split(",")
+    let inputArray1 = inputElement1.value.split(",")
+    let inputArray2 = inputElement2.value.split(",")
 
     // put the inputs into the calculator function with the add callback
     let result = arrayCalculator(inputArray1, inputArray2, callback)
